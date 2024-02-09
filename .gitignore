@@ -1,0 +1,59 @@
+
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Unignore smallinput
+!smallinput
+
+# Vscode
+.metals/
+.vscode/
+
+# JS
+node_modules/
+
+# C/cpp
+*.out
+
+# Zig
+zig-cache/
+zig-out/
+build/
+build-*/
+docgen_tmp/
+
+# Rust
+debug/
+target/
+
+Cargo.lock
+
+**/*.rs.bk
+
+# Dart
+.dart_tool/
+.packages
+pubspec.lock
+
+# Csharp
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
